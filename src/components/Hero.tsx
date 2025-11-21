@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Github, FileText, Users } from "lucide-react";
+import { Link } from "react-router-dom";
 import shpLogo from "@/assets/shp-logo.jpg";
 
 export const Hero = () => {
@@ -62,10 +63,10 @@ export const Hero = () => {
               className="border-primary/50 text-foreground hover:bg-primary/10 hover:border-primary font-semibold text-lg px-8"
               asChild
             >
-              <a href="#documentation">
+              <Link to="/docs">
                 <FileText className="mr-2 h-5 w-5" />
                 Documentation
-              </a>
+              </Link>
             </Button>
             
             <Button 
