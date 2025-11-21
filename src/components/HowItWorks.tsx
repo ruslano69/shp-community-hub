@@ -24,7 +24,7 @@ const steps = [
 
 export const HowItWorks = () => {
   return (
-    <section id="documentation" className="py-24 px-4 bg-gradient-to-b from-background to-card/30">
+    <section className="py-24 px-4 bg-gradient-to-b from-background to-card/30">
       <div className="container">
         <div className="text-center mb-16 space-y-4">
           <h2 className="text-4xl md:text-5xl font-bold">
